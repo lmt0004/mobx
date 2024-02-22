@@ -1,0 +1,109 @@
+.menu-container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    overflow: hidden;
+}
+body{
+  background-color: whitesmoke;
+}
+h1, h2 {
+    text-align: center;
+  }
+  
+  p {
+    margin-bottom: 20px; /* Espaciado inferior para separar los elementos */
+  }
+  form {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    margin: auto;
+  }
+  
+  input {
+    margin-bottom: 10px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  button {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  
+  header {
+    background-color: #3498db;
+    padding: 10px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Para centrar horizontalmente */
+  }
+  
+  header img {
+    width: 70px;
+    height: auto;
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+  
+
+.content-container {
+    flex: 1;
+    overflow-y: auto;
+}
+
+
+/* Estilos adicionales */
+.horizontal-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .horizontal-list li {
+    width: 30%; /* Establece el ancho de cada elemento al 30% para mostrar tres elementos por fila */
+    margin-bottom: 20px; /* Añade un margen inferior para separar las filas */
+  }
+  
+  .arepa-image {
+    width: 100%; /* Haz que la imagen ocupe el 100% del contenedor para que sea más grande */
+    max-width: 150px; /* Establece el ancho máximo para evitar que la imagen sea demasiado grande */
+  }
+  
+
+.custom-delete-button {
+    background-color: #ff5733;
+    color: #fff;
+    padding: 5px;  /* Ajusta el espacio interno */
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-left: 5px;  /* Ajusta el espacio entre el botón y la imagen */
+  }
+  
+  .custom-delete-button:hover {
+    background-color: #e0441b; /* Cambia el color al pasar el ratón por encima */
+  }
+  
+  form {
+    display: flex;
+    flex-direction: row;
+    max-width: 500px; /* Ajusta el ancho máximo del formulario */
+    margin: auto;
+  }
+  
+
+  
